@@ -6,7 +6,6 @@ class Main:
 
     def __init__(self):
         logging.basicConfig(
-            filename="myapp.log", 
             format='%(asctime)s %(levelname)s %(message)s', 
             level=logging.INFO, 
             datefmt='%m/%d/%Y %I:%M:%S %p'
